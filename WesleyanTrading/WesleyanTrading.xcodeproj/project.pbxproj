@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1DDC915454FBE05A7884522 /* Pods_WesleyanTrading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800B0048184A4F95D3CC0117 /* Pods_WesleyanTrading.framework */; };
+		D8B35B0F1C820E760097B9DB /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B35B0E1C820E760097B9DB /* PostsTableViewController.swift */; };
+		D8B35B111C820EBB0097B9DB /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B35B101C820EBB0097B9DB /* PostsTableViewCell.swift */; };
+		D8B35B131C8217A40097B9DB /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B35B121C8217A40097B9DB /* ComposeViewController.swift */; };
+		D8B35B151C8218200097B9DB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B141C8218200097B9DB /* ParseUI.framework */; };
+		D8B534E81C81FE4700ACE351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B534E71C81FE4700ACE351 /* AppDelegate.swift */; };
+		D8B534EA1C81FE4700ACE351 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B534E91C81FE4700ACE351 /* LogInViewController.swift */; };
+		D8B534ED1C81FE4700ACE351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B534EB1C81FE4700ACE351 /* Main.storyboard */; };
+		D8B534EF1C81FE4700ACE351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B534EE1C81FE4700ACE351 /* Assets.xcassets */; };
+		D8B534F21C81FE4700ACE351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B534F01C81FE4700ACE351 /* LaunchScreen.storyboard */; };
+		D8B534FD1C81FE4800ACE351 /* WesleyanTradingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B534FC1C81FE4800ACE351 /* WesleyanTradingTests.swift */; };
+		D8B535081C81FE4800ACE351 /* WesleyanTradingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B535071C81FE4800ACE351 /* WesleyanTradingUITests.swift */; };
+		D8B535161C81FF7800ACE351 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535151C81FF7800ACE351 /* AudioToolbox.framework */; };
+		D8B535181C81FF8C00ACE351 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535171C81FF8C00ACE351 /* CFNetwork.framework */; };
+		D8B5351A1C81FF9C00ACE351 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535191C81FF9C00ACE351 /* CoreGraphics.framework */; };
+		D8B5351C1C81FFA200ACE351 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5351B1C81FFA200ACE351 /* CoreLocation.framework */; };
+		D8B5351E1C81FFBB00ACE351 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5351D1C81FFBB00ACE351 /* MobileCoreServices.framework */; };
+		D8B535201C81FFCC00ACE351 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5351F1C81FFCC00ACE351 /* QuartzCore.framework */; };
+		D8B535221C81FFD100ACE351 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535211C81FFD100ACE351 /* Security.framework */; };
+		D8B535241C81FFE500ACE351 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535231C81FFE500ACE351 /* StoreKit.framework */; };
+		D8B535261C81FFF700ACE351 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535251C81FFF700ACE351 /* SystemConfiguration.framework */; };
+		D8B5352D1C82019B00ACE351 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5352B1C82019B00ACE351 /* Bolts.framework */; };
+		D8B5352E1C82019B00ACE351 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5352C1C82019B00ACE351 /* Parse.framework */; };
+		D8B535301C82021300ACE351 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5352F1C82021300ACE351 /* libz.tbd */; };
+		D8B535321C82022C00ACE351 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535311C82022C00ACE351 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8B534F91C81FE4700ACE351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8B534DC1C81FE4700ACE351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B534E31C81FE4700ACE351;
+			remoteInfo = WesleyanTrading;
+		};
+		D8B535041C81FE4800ACE351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8B534DC1C81FE4700ACE351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B534E31C81FE4700ACE351;
+			remoteInfo = WesleyanTrading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		800B0048184A4F95D3CC0117 /* Pods_WesleyanTrading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WesleyanTrading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB04C17731C79B3AE4657DA /* Pods-WesleyanTrading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WesleyanTrading.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WesleyanTrading/Pods-WesleyanTrading.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B35B0E1C820E760097B9DB /* PostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		D8B35B101C820EBB0097B9DB /* PostsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		D8B35B121C8217A40097B9DB /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		D8B35B141C8218200097B9DB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../../Downloads/parse-library-1.12.0 (2)/ParseUI.framework"; sourceTree = "<group>"; };
+		D8B534E41C81FE4700ACE351 /* WesleyanTrading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WesleyanTrading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B534E71C81FE4700ACE351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8B534E91C81FE4700ACE351 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D8B534EC1C81FE4700ACE351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8B534EE1C81FE4700ACE351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8B534F11C81FE4700ACE351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8B534F31C81FE4700ACE351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B534F81C81FE4700ACE351 /* WesleyanTradingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WesleyanTradingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B534FC1C81FE4800ACE351 /* WesleyanTradingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesleyanTradingTests.swift; sourceTree = "<group>"; };
+		D8B534FE1C81FE4800ACE351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B535031C81FE4800ACE351 /* WesleyanTradingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WesleyanTradingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B535071C81FE4800ACE351 /* WesleyanTradingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesleyanTradingUITests.swift; sourceTree = "<group>"; };
+		D8B535091C81FE4800ACE351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B535151C81FF7800ACE351 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D8B535171C81FF8C00ACE351 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D8B535191C81FF9C00ACE351 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8B5351B1C81FFA200ACE351 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8B5351D1C81FFBB00ACE351 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D8B5351F1C81FFCC00ACE351 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D8B535211C81FFD100ACE351 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D8B535231C81FFE500ACE351 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D8B535251C81FFF700ACE351 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D8B5352B1C82019B00ACE351 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1.12.0 (2)/Bolts.framework"; sourceTree = "<group>"; };
+		D8B5352C1C82019B00ACE351 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.12.0 (2)/Parse.framework"; sourceTree = "<group>"; };
+		D8B5352F1C82021300ACE351 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D8B535311C82022C00ACE351 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F2DED49EEBE35833E5EE54AE /* Pods-WesleyanTrading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WesleyanTrading.release.xcconfig"; path = "Pods/Target Support Files/Pods-WesleyanTrading/Pods-WesleyanTrading.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8B534E11C81FE4700ACE351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B535321C82022C00ACE351 /* libsqlite3.tbd in Frameworks */,
+				D8B535301C82021300ACE351 /* libz.tbd in Frameworks */,
+				D8B535261C81FFF700ACE351 /* SystemConfiguration.framework in Frameworks */,
+				D8B535241C81FFE500ACE351 /* StoreKit.framework in Frameworks */,
+				D8B535221C81FFD100ACE351 /* Security.framework in Frameworks */,
+				D8B535201C81FFCC00ACE351 /* QuartzCore.framework in Frameworks */,
+				D8B5351E1C81FFBB00ACE351 /* MobileCoreServices.framework in Frameworks */,
+				D8B5352D1C82019B00ACE351 /* Bolts.framework in Frameworks */,
+				D8B5352E1C82019B00ACE351 /* Parse.framework in Frameworks */,
+				D8B5351C1C81FFA200ACE351 /* CoreLocation.framework in Frameworks */,
+				D8B5351A1C81FF9C00ACE351 /* CoreGraphics.framework in Frameworks */,
+				D8B535181C81FF8C00ACE351 /* CFNetwork.framework in Frameworks */,
+				D8B35B151C8218200097B9DB /* ParseUI.framework in Frameworks */,
+				D8B535161C81FF7800ACE351 /* AudioToolbox.framework in Frameworks */,
+				B1DDC915454FBE05A7884522 /* Pods_WesleyanTrading.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B534F51C81FE4700ACE351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B535001C81FE4800ACE351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EDD6EFC3F7F5262A28CFD9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BB04C17731C79B3AE4657DA /* Pods-WesleyanTrading.debug.xcconfig */,
+				F2DED49EEBE35833E5EE54AE /* Pods-WesleyanTrading.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8B534DB1C81FE4700ACE351 = {
+			isa = PBXGroup;
+			children = (
+				D8B535331C8202BC00ACE351 /* Frameworks */,
+				D8B534E61C81FE4700ACE351 /* WesleyanTrading */,
+				D8B534FB1C81FE4700ACE351 /* WesleyanTradingTests */,
+				D8B535061C81FE4800ACE351 /* WesleyanTradingUITests */,
+				D8B534E51C81FE4700ACE351 /* Products */,
+				8EDD6EFC3F7F5262A28CFD9B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B534E51C81FE4700ACE351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8B534E41C81FE4700ACE351 /* WesleyanTrading.app */,
+				D8B534F81C81FE4700ACE351 /* WesleyanTradingTests.xctest */,
+				D8B535031C81FE4800ACE351 /* WesleyanTradingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8B534E61C81FE4700ACE351 /* WesleyanTrading */ = {
+			isa = PBXGroup;
+			children = (
+				D8B534E71C81FE4700ACE351 /* AppDelegate.swift */,
+				D8B534E91C81FE4700ACE351 /* LogInViewController.swift */,
+				D8B534EB1C81FE4700ACE351 /* Main.storyboard */,
+				D8B35B121C8217A40097B9DB /* ComposeViewController.swift */,
+				D8B35B101C820EBB0097B9DB /* PostsTableViewCell.swift */,
+				D8B35B0E1C820E760097B9DB /* PostsTableViewController.swift */,
+				D8B534EE1C81FE4700ACE351 /* Assets.xcassets */,
+				D8B534F01C81FE4700ACE351 /* LaunchScreen.storyboard */,
+				D8B534F31C81FE4700ACE351 /* Info.plist */,
+			);
+			path = WesleyanTrading;
+			sourceTree = "<group>";
+		};
+		D8B534FB1C81FE4700ACE351 /* WesleyanTradingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8B534FC1C81FE4800ACE351 /* WesleyanTradingTests.swift */,
+				D8B534FE1C81FE4800ACE351 /* Info.plist */,
+			);
+			path = WesleyanTradingTests;
+			sourceTree = "<group>";
+		};
+		D8B535061C81FE4800ACE351 /* WesleyanTradingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8B535071C81FE4800ACE351 /* WesleyanTradingUITests.swift */,
+				D8B535091C81FE4800ACE351 /* Info.plist */,
+			);
+			path = WesleyanTradingUITests;
+			sourceTree = "<group>";
+		};
+		D8B535331C8202BC00ACE351 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				800B0048184A4F95D3CC0117 /* Pods_WesleyanTrading.framework */,
+				D8B535311C82022C00ACE351 /* libsqlite3.tbd */,
+				D8B5352F1C82021300ACE351 /* libz.tbd */,
+				D8B35B141C8218200097B9DB /* ParseUI.framework */,
+				D8B5352B1C82019B00ACE351 /* Bolts.framework */,
+				D8B5352C1C82019B00ACE351 /* Parse.framework */,
+				D8B535251C81FFF700ACE351 /* SystemConfiguration.framework */,
+				D8B535231C81FFE500ACE351 /* StoreKit.framework */,
+				D8B535211C81FFD100ACE351 /* Security.framework */,
+				D8B5351F1C81FFCC00ACE351 /* QuartzCore.framework */,
+				D8B5351D1C81FFBB00ACE351 /* MobileCoreServices.framework */,
+				D8B5351B1C81FFA200ACE351 /* CoreLocation.framework */,
+				D8B535191C81FF9C00ACE351 /* CoreGraphics.framework */,
+				D8B535171C81FF8C00ACE351 /* CFNetwork.framework */,
+				D8B535151C81FF7800ACE351 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8B534E31C81FE4700ACE351 /* WesleyanTrading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B5350C1C81FE4800ACE351 /* Build configuration list for PBXNativeTarget "WesleyanTrading" */;
+			buildPhases = (
+				0EE23F0D8A71D831864875F4 /* Check Pods Manifest.lock */,
+				D8B534E01C81FE4700ACE351 /* Sources */,
+				D8B534E11C81FE4700ACE351 /* Frameworks */,
+				D8B534E21C81FE4700ACE351 /* Resources */,
+				E01CE30360057BAD3D677872 /* Embed Pods Frameworks */,
+				1A32E28A80DAF59EB4D9CAE2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WesleyanTrading;
+			productName = WesleyanTrading;
+			productReference = D8B534E41C81FE4700ACE351 /* WesleyanTrading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8B534F71C81FE4700ACE351 /* WesleyanTradingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B5350F1C81FE4800ACE351 /* Build configuration list for PBXNativeTarget "WesleyanTradingTests" */;
+			buildPhases = (
+				D8B534F41C81FE4700ACE351 /* Sources */,
+				D8B534F51C81FE4700ACE351 /* Frameworks */,
+				D8B534F61C81FE4700ACE351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8B534FA1C81FE4700ACE351 /* PBXTargetDependency */,
+			);
+			name = WesleyanTradingTests;
+			productName = WesleyanTradingTests;
+			productReference = D8B534F81C81FE4700ACE351 /* WesleyanTradingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8B535021C81FE4800ACE351 /* WesleyanTradingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B535121C81FE4800ACE351 /* Build configuration list for PBXNativeTarget "WesleyanTradingUITests" */;
+			buildPhases = (
+				D8B534FF1C81FE4800ACE351 /* Sources */,
+				D8B535001C81FE4800ACE351 /* Frameworks */,
+				D8B535011C81FE4800ACE351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8B535051C81FE4800ACE351 /* PBXTargetDependency */,
+			);
+			name = WesleyanTradingUITests;
+			productName = WesleyanTradingUITests;
+			productReference = D8B535031C81FE4800ACE351 /* WesleyanTradingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8B534DC1C81FE4700ACE351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Shirley He";
+				TargetAttributes = {
+					D8B534E31C81FE4700ACE351 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D8B534F71C81FE4700ACE351 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D8B534E31C81FE4700ACE351;
+					};
+					D8B535021C81FE4800ACE351 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D8B534E31C81FE4700ACE351;
+					};
+				};
+			};
+			buildConfigurationList = D8B534DF1C81FE4700ACE351 /* Build configuration list for PBXProject "WesleyanTrading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8B534DB1C81FE4700ACE351;
+			productRefGroup = D8B534E51C81FE4700ACE351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B534E31C81FE4700ACE351 /* WesleyanTrading */,
+				D8B534F71C81FE4700ACE351 /* WesleyanTradingTests */,
+				D8B535021C81FE4800ACE351 /* WesleyanTradingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8B534E21C81FE4700ACE351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B534F21C81FE4700ACE351 /* LaunchScreen.storyboard in Resources */,
+				D8B534EF1C81FE4700ACE351 /* Assets.xcassets in Resources */,
+				D8B534ED1C81FE4700ACE351 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B534F61C81FE4700ACE351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B535011C81FE4800ACE351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EE23F0D8A71D831864875F4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A32E28A80DAF59EB4D9CAE2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WesleyanTrading/Pods-WesleyanTrading-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E01CE30360057BAD3D677872 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WesleyanTrading/Pods-WesleyanTrading-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8B534E01C81FE4700ACE351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B35B131C8217A40097B9DB /* ComposeViewController.swift in Sources */,
+				D8B534EA1C81FE4700ACE351 /* LogInViewController.swift in Sources */,
+				D8B35B0F1C820E760097B9DB /* PostsTableViewController.swift in Sources */,
+				D8B534E81C81FE4700ACE351 /* AppDelegate.swift in Sources */,
+				D8B35B111C820EBB0097B9DB /* PostsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B534F41C81FE4700ACE351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B534FD1C81FE4800ACE351 /* WesleyanTradingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B534FF1C81FE4800ACE351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B535081C81FE4800ACE351 /* WesleyanTradingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8B534FA1C81FE4700ACE351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8B534E31C81FE4700ACE351 /* WesleyanTrading */;
+			targetProxy = D8B534F91C81FE4700ACE351 /* PBXContainerItemProxy */;
+		};
+		D8B535051C81FE4800ACE351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8B534E31C81FE4700ACE351 /* WesleyanTrading */;
+			targetProxy = D8B535041C81FE4800ACE351 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8B534EB1C81FE4700ACE351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B534EC1C81FE4700ACE351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8B534F01C81FE4700ACE351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B534F11C81FE4700ACE351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8B5350A1C81FE4800ACE351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8B5350B1C81FE4800ACE351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8B5350D1C81FE4800ACE351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB04C17731C79B3AE4657DA /* Pods-WesleyanTrading.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WesleyanTrading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirleyhe.WesleyanTrading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8B5350E1C81FE4800ACE351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DED49EEBE35833E5EE54AE /* Pods-WesleyanTrading.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WesleyanTrading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirleyhe.WesleyanTrading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8B535101C81FE4800ACE351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WesleyanTradingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirleyhe.WesleyanTradingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WesleyanTrading.app/WesleyanTrading";
+			};
+			name = Debug;
+		};
+		D8B535111C81FE4800ACE351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WesleyanTradingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirleyhe.WesleyanTradingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WesleyanTrading.app/WesleyanTrading";
+			};
+			name = Release;
+		};
+		D8B535131C81FE4800ACE351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WesleyanTradingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirleyhe.WesleyanTradingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WesleyanTrading;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D8B535141C81FE4800ACE351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WesleyanTradingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirleyhe.WesleyanTradingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WesleyanTrading;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8B534DF1C81FE4700ACE351 /* Build configuration list for PBXProject "WesleyanTrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B5350A1C81FE4800ACE351 /* Debug */,
+				D8B5350B1C81FE4800ACE351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B5350C1C81FE4800ACE351 /* Build configuration list for PBXNativeTarget "WesleyanTrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B5350D1C81FE4800ACE351 /* Debug */,
+				D8B5350E1C81FE4800ACE351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B5350F1C81FE4800ACE351 /* Build configuration list for PBXNativeTarget "WesleyanTradingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B535101C81FE4800ACE351 /* Debug */,
+				D8B535111C81FE4800ACE351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B535121C81FE4800ACE351 /* Build configuration list for PBXNativeTarget "WesleyanTradingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B535131C81FE4800ACE351 /* Debug */,
+				D8B535141C81FE4800ACE351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8B534DC1C81FE4700ACE351 /* Project object */;
+}
