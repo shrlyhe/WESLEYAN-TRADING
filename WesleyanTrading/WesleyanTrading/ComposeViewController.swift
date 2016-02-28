@@ -14,6 +14,7 @@ import Bolts
 
 class ComposeViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextViewDelegate {
 
+    
     @IBOutlet weak var captionTextView: UITextView!
     
     //@IBOutlet weak var previousImage: UIImageView!
@@ -103,6 +104,24 @@ class ComposeViewController: UIViewController, UIImagePickerControllerDelegate, 
         
         
         
+    }
+    
+    var imagePicker: UIImagePickerController!
+    
+    @IBAction func takePic(sender: AnyObject) {
+        
+        imagePicker =  UIImagePickerController()
+        imagePicker.delegate = self
+        imagePicker.sourceType = .Camera
+        
+        presentViewController(imagePicker, animated: true, completion: nil)
+    
+        
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        imagePicker.dismissViewControllerAnimated(true, completion: nil)
+        previousImage.image = info[UIImagePickerControllerOriginalImage] as? UIImage
     }
     
     
