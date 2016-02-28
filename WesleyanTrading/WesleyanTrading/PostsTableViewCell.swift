@@ -15,11 +15,10 @@ class PostsTableViewCell: UITableViewCell {
     
     
     @IBOutlet weak var postsImageView: PFImageView!
-    
-    
-    
     @IBOutlet weak var postsCaption: UILabel!
-
+    @IBOutlet weak var addedBy: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

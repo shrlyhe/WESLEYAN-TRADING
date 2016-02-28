@@ -7,11 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1DDC915454FBE05A7884522 /* Pods_WesleyanTrading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800B0048184A4F95D3CC0117 /* Pods_WesleyanTrading.framework */; };
 		D8B35B0F1C820E760097B9DB /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B35B0E1C820E760097B9DB /* PostsTableViewController.swift */; };
 		D8B35B111C820EBB0097B9DB /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B35B101C820EBB0097B9DB /* PostsTableViewCell.swift */; };
 		D8B35B131C8217A40097B9DB /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B35B121C8217A40097B9DB /* ComposeViewController.swift */; };
-		D8B35B151C8218200097B9DB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B141C8218200097B9DB /* ParseUI.framework */; };
+		D8B35B1B1C82257A0097B9DB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B1A1C82257A0097B9DB /* AudioToolbox.framework */; };
+		D8B35B1D1C8225820097B9DB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B1C1C8225820097B9DB /* CFNetwork.framework */; };
+		D8B35B1F1C82258D0097B9DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B1E1C82258D0097B9DB /* CoreGraphics.framework */; };
+		D8B35B211C8225930097B9DB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B201C8225930097B9DB /* CoreLocation.framework */; };
+		D8B35B231C82259B0097B9DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B221C82259B0097B9DB /* QuartzCore.framework */; };
+		D8B35B251C8225A20097B9DB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B241C8225A20097B9DB /* Security.framework */; };
+		D8B35B271C8225A70097B9DB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B261C8225A70097B9DB /* StoreKit.framework */; };
+		D8B35B291C8225B20097B9DB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B281C8225B20097B9DB /* SystemConfiguration.framework */; };
+		D8B35B2B1C8225B90097B9DB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B2A1C8225B90097B9DB /* libz.tbd */; };
+		D8B35B2D1C8225C20097B9DB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B2C1C8225C20097B9DB /* libsqlite3.tbd */; };
+		D8B35B311C8225DF0097B9DB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B2E1C8225DF0097B9DB /* Bolts.framework */; };
+		D8B35B321C8225DF0097B9DB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B2F1C8225DF0097B9DB /* Parse.framework */; };
+		D8B35B331C8225DF0097B9DB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B35B301C8225DF0097B9DB /* ParseUI.framework */; };
+		D8B35B361C82C3E80097B9DB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B35B351C82C3E80097B9DB /* RegisterViewController.swift */; };
+		D8B35B381C82C8D80097B9DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B35B371C82C8D80097B9DB /* SettingsViewController.swift */; };
 		D8B534E81C81FE4700ACE351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B534E71C81FE4700ACE351 /* AppDelegate.swift */; };
 		D8B534EA1C81FE4700ACE351 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B534E91C81FE4700ACE351 /* LogInViewController.swift */; };
 		D8B534ED1C81FE4700ACE351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B534EB1C81FE4700ACE351 /* Main.storyboard */; };
@@ -19,19 +32,6 @@
 		D8B534F21C81FE4700ACE351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B534F01C81FE4700ACE351 /* LaunchScreen.storyboard */; };
 		D8B534FD1C81FE4800ACE351 /* WesleyanTradingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B534FC1C81FE4800ACE351 /* WesleyanTradingTests.swift */; };
 		D8B535081C81FE4800ACE351 /* WesleyanTradingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B535071C81FE4800ACE351 /* WesleyanTradingUITests.swift */; };
-		D8B535161C81FF7800ACE351 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535151C81FF7800ACE351 /* AudioToolbox.framework */; };
-		D8B535181C81FF8C00ACE351 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535171C81FF8C00ACE351 /* CFNetwork.framework */; };
-		D8B5351A1C81FF9C00ACE351 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535191C81FF9C00ACE351 /* CoreGraphics.framework */; };
-		D8B5351C1C81FFA200ACE351 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5351B1C81FFA200ACE351 /* CoreLocation.framework */; };
-		D8B5351E1C81FFBB00ACE351 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5351D1C81FFBB00ACE351 /* MobileCoreServices.framework */; };
-		D8B535201C81FFCC00ACE351 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5351F1C81FFCC00ACE351 /* QuartzCore.framework */; };
-		D8B535221C81FFD100ACE351 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535211C81FFD100ACE351 /* Security.framework */; };
-		D8B535241C81FFE500ACE351 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535231C81FFE500ACE351 /* StoreKit.framework */; };
-		D8B535261C81FFF700ACE351 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535251C81FFF700ACE351 /* SystemConfiguration.framework */; };
-		D8B5352D1C82019B00ACE351 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5352B1C82019B00ACE351 /* Bolts.framework */; };
-		D8B5352E1C82019B00ACE351 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5352C1C82019B00ACE351 /* Parse.framework */; };
-		D8B535301C82021300ACE351 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5352F1C82021300ACE351 /* libz.tbd */; };
-		D8B535321C82022C00ACE351 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B535311C82022C00ACE351 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,12 +52,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		800B0048184A4F95D3CC0117 /* Pods_WesleyanTrading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WesleyanTrading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB04C17731C79B3AE4657DA /* Pods-WesleyanTrading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WesleyanTrading.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WesleyanTrading/Pods-WesleyanTrading.debug.xcconfig"; sourceTree = "<group>"; };
 		D8B35B0E1C820E760097B9DB /* PostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
 		D8B35B101C820EBB0097B9DB /* PostsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
 		D8B35B121C8217A40097B9DB /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
-		D8B35B141C8218200097B9DB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../../Downloads/parse-library-1.12.0 (2)/ParseUI.framework"; sourceTree = "<group>"; };
+		D8B35B1A1C82257A0097B9DB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D8B35B1C1C8225820097B9DB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D8B35B1E1C82258D0097B9DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8B35B201C8225930097B9DB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8B35B221C82259B0097B9DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D8B35B241C8225A20097B9DB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D8B35B261C8225A70097B9DB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D8B35B281C8225B20097B9DB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D8B35B2A1C8225B90097B9DB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D8B35B2C1C8225C20097B9DB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D8B35B2E1C8225DF0097B9DB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D8B35B2F1C8225DF0097B9DB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		D8B35B301C8225DF0097B9DB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		D8B35B351C82C3E80097B9DB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D8B35B371C82C8D80097B9DB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D8B534E41C81FE4700ACE351 /* WesleyanTrading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WesleyanTrading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B534E71C81FE4700ACE351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B534E91C81FE4700ACE351 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -71,19 +84,6 @@
 		D8B535031C81FE4800ACE351 /* WesleyanTradingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WesleyanTradingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B535071C81FE4800ACE351 /* WesleyanTradingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesleyanTradingUITests.swift; sourceTree = "<group>"; };
 		D8B535091C81FE4800ACE351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8B535151C81FF7800ACE351 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		D8B535171C81FF8C00ACE351 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		D8B535191C81FF9C00ACE351 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D8B5351B1C81FFA200ACE351 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		D8B5351D1C81FFBB00ACE351 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		D8B5351F1C81FFCC00ACE351 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		D8B535211C81FFD100ACE351 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		D8B535231C81FFE500ACE351 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		D8B535251C81FFF700ACE351 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D8B5352B1C82019B00ACE351 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1.12.0 (2)/Bolts.framework"; sourceTree = "<group>"; };
-		D8B5352C1C82019B00ACE351 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.12.0 (2)/Parse.framework"; sourceTree = "<group>"; };
-		D8B5352F1C82021300ACE351 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		D8B535311C82022C00ACE351 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F2DED49EEBE35833E5EE54AE /* Pods-WesleyanTrading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WesleyanTrading.release.xcconfig"; path = "Pods/Target Support Files/Pods-WesleyanTrading/Pods-WesleyanTrading.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,21 +92,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B535321C82022C00ACE351 /* libsqlite3.tbd in Frameworks */,
-				D8B535301C82021300ACE351 /* libz.tbd in Frameworks */,
-				D8B535261C81FFF700ACE351 /* SystemConfiguration.framework in Frameworks */,
-				D8B535241C81FFE500ACE351 /* StoreKit.framework in Frameworks */,
-				D8B535221C81FFD100ACE351 /* Security.framework in Frameworks */,
-				D8B535201C81FFCC00ACE351 /* QuartzCore.framework in Frameworks */,
-				D8B5351E1C81FFBB00ACE351 /* MobileCoreServices.framework in Frameworks */,
-				D8B5352D1C82019B00ACE351 /* Bolts.framework in Frameworks */,
-				D8B5352E1C82019B00ACE351 /* Parse.framework in Frameworks */,
-				D8B5351C1C81FFA200ACE351 /* CoreLocation.framework in Frameworks */,
-				D8B5351A1C81FF9C00ACE351 /* CoreGraphics.framework in Frameworks */,
-				D8B535181C81FF8C00ACE351 /* CFNetwork.framework in Frameworks */,
-				D8B35B151C8218200097B9DB /* ParseUI.framework in Frameworks */,
-				D8B535161C81FF7800ACE351 /* AudioToolbox.framework in Frameworks */,
-				B1DDC915454FBE05A7884522 /* Pods_WesleyanTrading.framework in Frameworks */,
+				D8B35B2D1C8225C20097B9DB /* libsqlite3.tbd in Frameworks */,
+				D8B35B2B1C8225B90097B9DB /* libz.tbd in Frameworks */,
+				D8B35B291C8225B20097B9DB /* SystemConfiguration.framework in Frameworks */,
+				D8B35B271C8225A70097B9DB /* StoreKit.framework in Frameworks */,
+				D8B35B251C8225A20097B9DB /* Security.framework in Frameworks */,
+				D8B35B231C82259B0097B9DB /* QuartzCore.framework in Frameworks */,
+				D8B35B211C8225930097B9DB /* CoreLocation.framework in Frameworks */,
+				D8B35B1F1C82258D0097B9DB /* CoreGraphics.framework in Frameworks */,
+				D8B35B311C8225DF0097B9DB /* Bolts.framework in Frameworks */,
+				D8B35B1D1C8225820097B9DB /* CFNetwork.framework in Frameworks */,
+				D8B35B321C8225DF0097B9DB /* Parse.framework in Frameworks */,
+				D8B35B1B1C82257A0097B9DB /* AudioToolbox.framework in Frameworks */,
+				D8B35B331C8225DF0097B9DB /* ParseUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,10 +134,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D8B35B341C8225EA0097B9DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8B35B2E1C8225DF0097B9DB /* Bolts.framework */,
+				D8B35B2F1C8225DF0097B9DB /* Parse.framework */,
+				D8B35B301C8225DF0097B9DB /* ParseUI.framework */,
+				D8B35B2C1C8225C20097B9DB /* libsqlite3.tbd */,
+				D8B35B2A1C8225B90097B9DB /* libz.tbd */,
+				D8B35B281C8225B20097B9DB /* SystemConfiguration.framework */,
+				D8B35B261C8225A70097B9DB /* StoreKit.framework */,
+				D8B35B241C8225A20097B9DB /* Security.framework */,
+				D8B35B221C82259B0097B9DB /* QuartzCore.framework */,
+				D8B35B201C8225930097B9DB /* CoreLocation.framework */,
+				D8B35B1E1C82258D0097B9DB /* CoreGraphics.framework */,
+				D8B35B1C1C8225820097B9DB /* CFNetwork.framework */,
+				D8B35B1A1C82257A0097B9DB /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8B534DB1C81FE4700ACE351 = {
 			isa = PBXGroup;
 			children = (
-				D8B535331C8202BC00ACE351 /* Frameworks */,
+				D8B35B341C8225EA0097B9DB /* Frameworks */,
 				D8B534E61C81FE4700ACE351 /* WesleyanTrading */,
 				D8B534FB1C81FE4700ACE351 /* WesleyanTradingTests */,
 				D8B535061C81FE4800ACE351 /* WesleyanTradingUITests */,
@@ -164,6 +182,8 @@
 				D8B534E71C81FE4700ACE351 /* AppDelegate.swift */,
 				D8B534E91C81FE4700ACE351 /* LogInViewController.swift */,
 				D8B534EB1C81FE4700ACE351 /* Main.storyboard */,
+				D8B35B371C82C8D80097B9DB /* SettingsViewController.swift */,
+				D8B35B351C82C3E80097B9DB /* RegisterViewController.swift */,
 				D8B35B121C8217A40097B9DB /* ComposeViewController.swift */,
 				D8B35B101C820EBB0097B9DB /* PostsTableViewCell.swift */,
 				D8B35B0E1C820E760097B9DB /* PostsTableViewController.swift */,
@@ -190,28 +210,6 @@
 				D8B535091C81FE4800ACE351 /* Info.plist */,
 			);
 			path = WesleyanTradingUITests;
-			sourceTree = "<group>";
-		};
-		D8B535331C8202BC00ACE351 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				800B0048184A4F95D3CC0117 /* Pods_WesleyanTrading.framework */,
-				D8B535311C82022C00ACE351 /* libsqlite3.tbd */,
-				D8B5352F1C82021300ACE351 /* libz.tbd */,
-				D8B35B141C8218200097B9DB /* ParseUI.framework */,
-				D8B5352B1C82019B00ACE351 /* Bolts.framework */,
-				D8B5352C1C82019B00ACE351 /* Parse.framework */,
-				D8B535251C81FFF700ACE351 /* SystemConfiguration.framework */,
-				D8B535231C81FFE500ACE351 /* StoreKit.framework */,
-				D8B535211C81FFD100ACE351 /* Security.framework */,
-				D8B5351F1C81FFCC00ACE351 /* QuartzCore.framework */,
-				D8B5351D1C81FFBB00ACE351 /* MobileCoreServices.framework */,
-				D8B5351B1C81FFA200ACE351 /* CoreLocation.framework */,
-				D8B535191C81FF9C00ACE351 /* CoreGraphics.framework */,
-				D8B535171C81FF8C00ACE351 /* CFNetwork.framework */,
-				D8B535151C81FF7800ACE351 /* AudioToolbox.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +283,7 @@
 				TargetAttributes = {
 					D8B534E31C81FE4700ACE351 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6VQPSK4L7D;
 					};
 					D8B534F71C81FE4700ACE351 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -398,7 +397,9 @@
 			files = (
 				D8B35B131C8217A40097B9DB /* ComposeViewController.swift in Sources */,
 				D8B534EA1C81FE4700ACE351 /* LogInViewController.swift in Sources */,
+				D8B35B381C82C8D80097B9DB /* SettingsViewController.swift in Sources */,
 				D8B35B0F1C820E760097B9DB /* PostsTableViewController.swift in Sources */,
+				D8B35B361C82C3E80097B9DB /* RegisterViewController.swift in Sources */,
 				D8B534E81C81FE4700ACE351 /* AppDelegate.swift in Sources */,
 				D8B35B111C820EBB0097B9DB /* PostsTableViewCell.swift in Sources */,
 			);
@@ -541,10 +542,18 @@
 			baseConfigurationReference = 9BB04C17731C79B3AE4657DA /* Pods-WesleyanTrading.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WesleyanTrading/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shirleyhe.WesleyanTrading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -553,10 +562,18 @@
 			baseConfigurationReference = F2DED49EEBE35833E5EE54AE /* Pods-WesleyanTrading.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WesleyanTrading/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shirleyhe.WesleyanTrading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
