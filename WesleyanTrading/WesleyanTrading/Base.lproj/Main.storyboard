@@ -166,9 +166,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AP7-38-3h0">
                                 <rect key="frame" x="247" y="240" width="58" height="30"/>
                                 <state key="normal" title="Take Pic"/>
-                                <connections>
-                                    <action selector="takePic:" destination="bG3-HO-mu2" eventType="touchUpInside" id="xdY-j2-T8g"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxp-h4-kn6">
                                 <rect key="frame" x="76" y="234" width="35" height="30"/>

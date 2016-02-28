@@ -26,6 +26,7 @@ class ComposeViewController: UIViewController, UIImagePickerControllerDelegate, 
         
         
         captionTextView.delegate = self
+        
 
         // Do any additional setup after loading the view.
     }
@@ -106,23 +107,23 @@ class ComposeViewController: UIViewController, UIImagePickerControllerDelegate, 
         
     }
     
-    var imagePicker: UIImagePickerController!
-    
-    @IBAction func takePic(sender: AnyObject) {
-        
-        imagePicker =  UIImagePickerController()
-        imagePicker.delegate = self
-        imagePicker.sourceType = .Camera
-        
-        presentViewController(imagePicker, animated: true, completion: nil)
-    
-        
-    }
-    
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
-        imagePicker.dismissViewControllerAnimated(true, completion: nil)
-        previousImage.image = info[UIImagePickerControllerOriginalImage] as? UIImage
-    }
+//    var imagePicker: UIImagePickerController!
+//    
+//    @IBAction func takePic(sender: AnyObject) {
+//        
+//        imagePicker =  UIImagePickerController()
+//        imagePicker.delegate = self
+//        imagePicker.sourceType = .Camera
+//        
+//        presentViewController(imagePicker, animated: true, completion: nil)
+//    
+//        
+//    }
+//    
+//    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+//        imagePicker.dismissViewControllerAnimated(true, completion: nil)
+//        previousImage.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+//    }
     
     
 
