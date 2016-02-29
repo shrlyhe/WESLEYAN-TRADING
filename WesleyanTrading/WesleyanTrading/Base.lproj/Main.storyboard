@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wqN-Ly-eM9" firstAttribute="centerX" secondItem="91p-bn-xOE" secondAttribute="centerX" id="BT4-O8-mQ6"/>
                             <constraint firstItem="p2r-Ob-WbA" firstAttribute="centerX" secondItem="91p-bn-xOE" secondAttribute="centerX" id="Qfp-7Z-wwj"/>
@@ -132,7 +132,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="v62-Bs-X4N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Kz-ez-0Be"/>
                             <constraint firstItem="W8Z-gw-hm2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2jt-gL-9w5"/>
@@ -197,10 +197,10 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zfg-n9-Eam">
-                                <rect key="frame" x="31" y="305" width="363" height="398"/>
+                                <rect key="frame" x="31" y="305" width="363" height="336"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="xIB-AY-IxW" firstAttribute="centerX" secondItem="2tP-jA-Jtv" secondAttribute="centerX" id="3gQ-e7-K3g"/>
                             <constraint firstItem="Qxp-h4-kn6" firstAttribute="centerX" secondItem="2tP-jA-Jtv" secondAttribute="centerX" id="XMh-AV-ida"/>
@@ -234,7 +234,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfO-cm-RxQ">
-                                <rect key="frame" x="137" y="278" width="96" height="45"/>
+                                <rect key="frame" x="95" y="274" width="96" height="45"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
                                 <state key="normal" title="Log Out">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -243,7 +244,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
