@@ -13,7 +13,7 @@ import Bolts
 
 
 class ComposeViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextViewDelegate {
-
+    
     
     @IBOutlet weak var captionTextView: UITextView!
     
@@ -27,10 +27,10 @@ class ComposeViewController: UIViewController, UIImagePickerControllerDelegate, 
         
         captionTextView.delegate = self
         
-
+        
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -46,10 +46,9 @@ class ComposeViewController: UIViewController, UIImagePickerControllerDelegate, 
         imagePicker.allowsEditing = false
         
         self.presentViewController(imagePicker, animated: true, completion: nil)
-
         
     }
-
+    
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!) {
         
@@ -59,7 +58,7 @@ class ComposeViewController: UIViewController, UIImagePickerControllerDelegate, 
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
-    
+
     
     func textViewShouldEndEditing(textView: UITextView) -> Bool {
         captionTextView.resignFirstResponder()
@@ -107,34 +106,34 @@ class ComposeViewController: UIViewController, UIImagePickerControllerDelegate, 
         
     }
     
-//    var imagePicker: UIImagePickerController!
-//    
-//    @IBAction func takePic(sender: AnyObject) {
-//        
-//        imagePicker =  UIImagePickerController()
-//        imagePicker.delegate = self
-//        imagePicker.sourceType = .Camera
-//        
-//        presentViewController(imagePicker, animated: true, completion: nil)
-//    
-//        
-//    }
-//    
-//    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
-//        imagePicker.dismissViewControllerAnimated(true, completion: nil)
-//        previousImage.image = info[UIImagePickerControllerOriginalImage] as? UIImage
-//    }
+    //    var imagePicker: UIImagePickerController!
+    //
+    //    @IBAction func takePic(sender: AnyObject) {
+    //
+    //        imagePicker =  UIImagePickerController()
+    //        imagePicker.delegate = self
+    //        imagePicker.sourceType = .Camera
+    //
+    //        presentViewController(imagePicker, animated: true, completion: nil)
+    //
+    //
+    //    }
+    //
+    //    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+    //        imagePicker.dismissViewControllerAnimated(true, completion: nil)
+    //        previousImage.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+    //    }
     
     
-
+    
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
