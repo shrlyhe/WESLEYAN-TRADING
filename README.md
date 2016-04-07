@@ -1,2 +1,2 @@
 # WESLEYAN-TRADING
-Round2
+Platform for buying and trading books
